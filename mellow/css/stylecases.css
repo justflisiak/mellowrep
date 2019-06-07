@@ -1,0 +1,492 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/Proxima-Nova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../Proxima-Nova-Bold.woff') format('woff');
+    font-weight: 200;
+    font-style: bold;
+}
+#gal{
+  position: static;
+  display: none;
+  z-index: 200;
+}
+
+.st0{fill:none;stroke:#fa7268;stroke-miterlimit:0;stroke-width:5px;stroke-dasharray: 0; stroke-dashoffset: 0;
+  animation: dash 3s ease-in;
+
+}
+
+section{
+  margin:0;
+  padding: 0;
+}
+
+svg{
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+  position:relative;
+  width: 40vw;
+}
+
+@keyframes dash {
+  0% {
+    fill:none;stroke:#fa7268;
+    stroke-dasharray: 100;
+    stroke-width:10px;
+    stroke-dashoffset: 50;
+  }
+
+  100% {
+  fill:none;stroke:#fa7268;
+  stroke-width:10px;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 50;
+
+  }
+}
+
+
+  html {
+      scroll-behavior: smooth;
+    }
+
+body {
+  background-color: #fff8e7;
+  margin:0;
+  padding: 0;
+
+}
+img{
+
+  display: inline-block;
+}
+
+
+nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  position: fixed;
+  width: 100vh;
+  bottom: 0;
+  right: 7%;
+  line-height: 3em;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+  background-color: #fff8e7;
+  color: #1E2952;
+
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  padding:0 15px 0 15px;
+      font-family: 'ProximaNova';
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.3em;
+    z-index: 100;
+}
+
+.article{
+
+
+  width:80vw;
+  margin:0 auto;
+margin-top: -5%;
+}
+.titlee{
+
+  width:80vw;
+background-color: black;
+opacity: 0.6;
+  font-size: 7vw;
+  font-family: 'ProximaNova';
+      font-weight: bold;
+      -webkit-text-stroke: .001em white;
+      color: transparent;
+  text-align: center;
+   position: relative;
+  margin:0 auto;
+  top:30vw;
+
+}
+
+.content{
+  margin: 2vw auto;
+ width:80vw;
+ height:auto;
+ display:grid;
+ grid-template-columns: auto auto;
+ grid-row: auto auto;
+}
+
+.one{
+    align-items:center;
+    justify-content:center;
+    padding: 2%;
+  }
+
+  .text{
+      width:auto;
+      margin-right: 10%;
+      margin-left: 10%;
+      text-align: justify;
+      font-size: 1.2em;
+        font-family: 'ProximaNova';
+        font-weight: 400;
+        color:#14354c;
+
+  }
+
+  .graphic2{
+    width:100%;
+  }
+  .text2{
+    width:auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    font-size: 1.2em;
+      font-family: 'ProximaNova';
+      font-weight: 400;
+      color:#14354c;
+  }
+  .graphic3{
+      width:100%;
+  }
+
+.graphic{
+width:80vw;
+margin: 0 auto;
+
+
+}
+.headline{
+width:100%;
+text-align: justify;
+
+font-size: 2.5em;
+font-family: 'ProximaNova';
+    font-weight: bold;
+
+
+}
+
+@media (max-width: 1000px) {
+.content{
+  display:block;
+}
+
+}
+
+.motto{
+  display: inline-block;
+margin:0;
+margin-left: 10%;
+background-color: yellow;
+width:200px;
+height:200px;
+border-radius: 200px;
+  font-size: 6vw;
+  font-family: 'ProximaNova';
+      font-weight: bold;
+      -webkit-text-stroke: .001em #14354c;
+      color: transparent;
+}
+
+.sidebarnav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  position: fixed;
+  width: 100vh;
+  bottom: 0;
+  right:100%;
+  line-height: 1em;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+  color:#fa7268;
+  text-decoration: none;
+  padding:0 5px 0 5px;
+  font-family: 'ProximaNova';
+  font-weight: 500;
+  font-style: normal;
+  font-size:1.2em;
+background-color: #fff8e7;
+
+}
+.shr{
+display:inline-block;
+  width:3vw;
+margin:0;
+margin-left: 20px;
+padding: 0;
+border: 2px solid #fa7268;
+vertical-align: middle;
+}
+.shr2{
+display:inline-block;
+  width:3vw;
+  margin:0;
+margin-right: 20px;
+padding: 0;
+border: 2px solid #fa7268;
+vertical-align: middle;
+}
+
+
+h1 {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  font-size:10vw;
+  margin:0;
+  padding: 100px;
+  pointer-events: none;
+}
+
+h2 {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  font-size:8em;
+padding: 10vw;
+  position: absolute;
+
+}
+.logo {
+  display: block;
+   margin-left: 35vw;
+   margin-right: auto;
+   width: 50%;
+   padding-top:20%;
+}
+
+
+
+
+
+#ziomy{
+    background-color: #fff8e7;
+    width: 100%;
+margin: auto;
+
+
+}
+.ziom1{
+      background-color: #fff8e7;
+  width:33.3%;
+  float:left;
+}
+.ziom2{
+      background-color: #fff8e7;
+  width:33.3%;
+  float:left;
+
+}
+.ziom3{
+      background-color: #fff8e7;
+  width:33.3%;
+float:left;
+}
+#ziomy img{
+  width: 20vw;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.ziomyp{
+  color:black;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.title{
+float:left;
+}
+
+
+#contact{
+padding: 100px;
+  margin:0;
+
+}
+#contactleft{
+  width: 50%;
+  float:left;
+}
+.social:after {
+    content: '|';
+    font-size: 3em;
+
+}
+#contactfirst{
+  float:left;
+  width: 100%;
+    background-color:  #fff8e7;
+
+}
+#contactsecond{
+  float:left;
+  width: 100%;
+  background-color:  #fff8e7;
+}
+
+#contactright{
+  float:right;
+  width: 50%;
+  font-size: 1vw;
+}
+#contactleft2{
+  width: 50%;
+  float:left;
+}
+#contactright2{
+  float:right;
+  width: 50%;
+  font-size: 1vw;
+}
+#footer{
+    background-color:  #fff8e7;
+  font-size: 0.9em;
+  float:left;
+  width: 100%;
+  text-align:center;
+}
+
+.icon{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.icon1{
+  width: 50px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.icon2{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.icon3{
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+.g5{
+  border: 3px solid #fa7268;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+#motto{
+position: relative;
+font-size: 5vw;
+pointer-events: none;
+padding: 100px;
+margin: 0;
+}
+#motto p {
+
+}
+
+#side{
+  position: relative;
+  transform: rotate(-90deg);
+  left:5vw;
+  top:5vw;
+  transform-origin: 0% 0%;
+}
+
+#homepage{
+  background-color: #fff8e7;
+  padding:0;
+  margin:0;
+  height: 100vh;
+}
+.quote{
+  float:right;
+  margin-right: 30%;
+  font-size: 2em;
+}
+
+#idea{
+  background-color: #fff8e7;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+}
+#about{
+  background-color: #fff8e7;
+    height: 100vh;
+}
+#contact{
+    height: 100vh;
+  background-color: #fff8e7;
+}
+
+
+
+#newsblock{
+
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   color:transparent;
+
+}

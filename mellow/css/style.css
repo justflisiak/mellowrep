@@ -1,0 +1,664 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/Proxima-Nova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#gal{
+  position: static;
+  display: none;
+  z-index: 200;
+}
+
+.st0{fill:none;stroke:#fa7268;stroke-miterlimit:0;stroke-width:5px;stroke-dasharray: 0; stroke-dashoffset: 0;
+  animation: dash 3s ease-in;
+
+}
+
+svg{
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+  position:relative;
+  width: 50vw;
+}
+
+@keyframes dash {
+  0% {
+    fill:none;stroke:#fa7268;
+    stroke-dasharray: 100;
+    stroke-width:10px;
+    stroke-dashoffset: 50;
+  }
+
+  100% {
+  fill:none;stroke:#fa7268;
+  stroke-width:10px;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 50;
+
+  }
+}
+
+
+  html {
+      scroll-behavior: smooth;
+    }
+
+body {
+  background-color: #fff8e7;
+  margin:0;
+  padding: 0;
+  min-height: 130vw;
+}
+img{
+
+  display: inline-block;
+}
+
+nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  position: fixed;
+  width: 100vh;
+  bottom: 0;
+  right: 7%;
+  line-height: 3em;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+  background-color: #fff8e7;
+  color: #1E2952;
+z-index: 100;
+
+
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  padding:0 15px 0 15px;
+      font-family: 'ProximaNova';
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.3em;
+    z-index: 100;
+}
+
+
+.sidebarnav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  position: fixed;
+  width: 100vh;
+  bottom: 0;
+  right:100%;
+  line-height: 1em;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+  color:#fa7268;
+  text-decoration: none;
+  padding:0 5px 0 5px;
+  font-family: 'ProximaNova';
+  font-weight: 500;
+  font-style: normal;
+  font-size:1.2em;
+background-color: #fff8e7;
+
+}
+
+
+h2 {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  font-size:8em;
+padding: 10vw;
+  position: absolute;
+
+}
+.logo {
+  display: block;
+   margin-left: 35vw;
+   margin-right: auto;
+   width: 50vw;
+   padding-top:20%;
+}
+
+.ziom1{
+  padding: 0;
+  width:30%;
+  float:left;
+}
+div.ziom1{
+  margin:0;
+  margin-top:12%;
+  margin-left: 8%;
+}
+.ziom2{
+    padding: 0;
+  width:30%;
+  float:left;
+
+}
+div.ziom2{
+  margin:0;
+    margin-top:12%;
+}
+.ziom3{
+    padding: 0;
+
+  width:30%;
+float:left;
+
+}
+div.ziom3{
+  margin:0;
+    margin-top:12%;
+}
+.ziomyc{
+  width: 17vw;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ziomyp{
+  color:black;
+  font-family: 'ProximaNova';
+font-weight: 700;
+font-style: normal;
+ font-size: calc(0.5em + 0.8vw);
+
+  display: block;
+  opacity:0.8;
+  border-radius: 25px;
+  margin:0 auto;
+  padding: 2%;
+  margin-top:15px;
+  width: 70%;
+  line-height: 1.5;
+
+}
+
+.title{
+float:left;
+}
+
+
+#contact{
+padding: 100px;
+  margin:0;
+
+}
+#contactleft{
+  width: 50%;
+  float:left;
+
+}
+#contactright{
+  float:right;
+  width: 50%;
+  margin:auto;
+
+}
+#contactfirst{
+  float:left;
+  width: 100%;
+    background-color:  #fff8e7;
+    margin:0;
+    margin-top: 5%;
+
+}
+#contactsecond{
+  margin:0;
+  margin-top: 5%;
+  float:left;
+    width: 100%;
+      background-color:  #fff8e7;
+}
+
+
+#contactleft2{
+  width: 50%;
+  float:left;
+}
+.formc{
+  font-family: 'ProximaNova';
+}
+#contactright2{
+  float:right;
+  width: 50%;
+
+}
+
+
+
+#footer{
+  font-family: 'ProximaNova';
+    background-color:  #fff8e7;
+  font-size: 0.9em;
+  float:left;
+  width: 100%;
+  text-align:center;
+}
+
+.icon{
+  width: 2vw;
+  vertical-align: middle;
+  margin:0;
+  margin-right: 20px;
+}
+
+
+.icon1{
+  width: 50px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.icon2{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.icon3{
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #b5b5b5;
+}
+
+/* Add a background color and some padding around the form */
+.contactform {
+  background-color: #fa7268;
+  padding: 20px;
+  margin: 0% 10% 10% 20%;
+}
+
+
+.social{
+
+}
+
+.social1{
+  display:block;
+  color:black;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin:0;
+  margin-top: 20px;
+  padding: 20px 0px 10px 0;
+  font-family: 'ProximaNova';
+      font-weight: bold;}
+.xcv{
+  font-size: 1.5em;
+}
+
+.pform{
+  padding: 0 0 10px 0;
+  margin:0;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: 'ProximaNova';
+      font-weight: bold;
+
+}
+.social2{
+  display:block;
+  margin:0;
+  padding: 0;
+    font-size: 6vw;
+margin-left: 5%;
+  font-family: 'ProximaNova';
+      font-weight: bold;
+      -webkit-text-stroke: .001em #14354c;
+      color: transparent;
+}
+
+.social3{
+  color:
+  display:block;
+  margin:0;
+  margin-top: 2vw;
+    font-size: 2vw;
+margin-left: 5%;
+  font-family: 'ProximaNova';
+      font-weight: bold;
+    color:#14354c;
+}
+.emailc{
+  width:2vw;
+}
+.motto{
+    display: inline-block;
+  margin:0;
+  margin-left: 10%;
+  background-color: #E7FF5D;
+  width:200px;
+  height:200px;
+  border-radius: 200px;
+  font-size: 10em;
+    font-family: 'ProximaNova';
+      font-weight: bold;
+      color:#14354c;
+
+}
+
+.mottot{
+
+margin:0;
+padding: 0;
+margin-left: 10%;
+margin-bottom: -10%;
+font-size: 10em;
+  font-family: 'ProximaNova';
+    font-weight: bold;
+    color:#14354c;
+}
+
+
+.motto2{
+
+
+margin:0 auto;
+margin-right: 10%;
+
+  background-color: #fff8e7;
+  width:40vw;
+  padding: 1%;
+  font-size: 2.5em;
+  font-family: 'ProximaNova';
+  font-weight: 700;
+}
+
+.motto3{
+  text-align: justify;
+  text-indent: 1.5em;
+margin:0 auto;
+margin-right: 10%;
+margin-top: 2%;
+  background-color: #fff8e7;
+  width:60vw;
+  padding: 1%;
+  font-size: 1.5em;
+  font-family: 'ProximaNova';
+  font-weight: 400;
+}
+
+
+
+#side{
+  position: relative;
+  transform: rotate(-90deg);
+  left:5vw;
+  top:5vw;
+  transform-origin: 0% 0%;
+}
+
+#homepage{
+  background-color: #fff8e7;
+  padding:0;
+  margin:0;
+height:100vh;
+}
+.quote{
+  float:right;
+  margin:0;
+  margin-right: 30%;
+  font-size: 2vw;
+    font-family: 'ProximaNova';
+    font-weight: 300;
+    color:#14354c;
+}
+
+#idea{
+  background-color: #fff8e7;
+  background-image: url('../images/idea1c.png');
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:100%;
+  max-height: 100%;
+    margin:0;
+
+}
+
+iframe{
+  display:block;
+margin: 0 auto 10% auto;
+
+width:48vw;
+height: 36vw;
+}
+
+#about{
+  background-color: #fff8e7;
+  background-image: url('../images/aboutbg.png');
+background-position:bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width:83vw;
+    margin: 0;
+    margin-left: 5%;
+
+}
+#contact{
+    height: 100vh;
+  background-color: #fff8e7;
+}
+
+.text{padding:10vw;
+  grid-column: 2;
+  font-family: ProximaNova;
+width:50vw;
+}
+.graphic{
+  max-width: 50vw;
+grid-column: 1;
+overflow: hidden;}
+.graphic img{
+  width:60%;
+
+}
+
+
+
+
+
+#newsblock{
+
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   color:transparent;
+
+}
+
+.g1{
+    background-color:transparent;
+
+}
+
+.g2, .g3, .g4, .g5, .g6
+{
+    background-color:transparent;
+
+
+}
+
+
+
+.g1x, .g2x, .g3x, .g4x, .g5x, .g6x
+ {
+outline: 3px solid #fa7268;
+  padding: 15px;
+  background-color: #fff8e7;
+
+
+}
+
+
+.shr{
+display:inline-block;
+  width:3vw;
+margin:0;
+margin-left: 20px;
+padding: 0;
+border: 1.5px solid #fa7268;
+vertical-align: middle;
+}
+.shr2{
+display:inline-block;
+  width:3vw;
+  margin:0;
+margin-right: 20px;
+padding: 0;
+border: 1.5px solid #fa7268;
+vertical-align: middle;
+}
+
+
+
+.contacthr2{
+  width:80%;
+  margin:0;
+  margin-left: 10%;
+  margin-top: 5%;
+
+  border: 1.5px solid #fa7268;
+}
+
+
+.footerhr{
+
+  width:80%;
+}
+
+.send{
+  font-family: 'ProximaNova';
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+video{
+  width:100%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+@media (max-width: 1000px) {
+
+  svg{
+width:80vw;
+top:50vw;
+  }
+p.quote{
+  font-size: 3vw;
+  text-align: right;
+  margin-right: 10%;
+  margin-top:50%;
+}
+  .contacthr {
+    display: none;
+  }
+  .contacthr2{
+margin-bottom: 20px;
+  }
+  #contactfirst{
+    margin: 0;
+    width:auto;
+  }
+  #contactleft{
+    margin:0 auto;
+    float:none;
+  }
+  .social1{
+    display: block;
+    width: 100%;
+    padding:5px;
+  }
+  #contactright{
+width:50%;
+margin: 0 auto;
+text-align: center;
+}
+
+  #contactright2{
+display: none;
+  }
+  #contactsecond{
+    margin:0 auto;
+  }
+  #contactleft2{
+
+    width: 100%;
+  }
+  .contactform {
+    width:60vw;
+
+    padding: 20px;
+margin:0;
+  }
+}
+
+@media (max-width: 800px) {
+
+.social1{
+  font-size: 1em;
+  width: 50px;
+  width:100%;
+
+}
+.xcv{
+  display:none;
+}
+}

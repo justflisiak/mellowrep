@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-UltraLight.woff2') format('woff2'),
+        url('Butler-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Medium.woff2') format('woff2'),
+        url('Butler-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Light.woff2') format('woff2'),
+        url('Butler-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Black.woff2') format('woff2'),
+        url('Butler-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Bold.woff2') format('woff2'),
+        url('Butler-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-ExtraBold.woff2') format('woff2'),
+        url('Butler-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler.woff2') format('woff2'),
+        url('Butler.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('Proxima-Nova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#gal{
+  position: static;
+  display: none;
+  z-index: 200;
+}
+
+.st0{fill:none;stroke:#fa7268;stroke-miterlimit:0;stroke-width:5px;stroke-dasharray: 0; stroke-dashoffset: 0;
+  animation: dash 3s ease-in;
+
+}
+  .st1{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-width:1px;stroke-dasharray: 15;
+    animation: dash 5s ease-out;
+  }
+
+
+svg{
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+position:relative;
+  width: 40vw;
+
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 100;
+    stroke-width:10px;
+    stroke-dashoffset: 100;
+
+  }
+  100% {
+  fill:none;stroke:#fa7268;
+  stroke-miterlimit:0;
+  stroke-width:5px;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+
+  }
+}
+
+
+  html {
+      scroll-behavior: smooth;
+    }
+
+body {
+  background-color: white;
+  margin:0;
+  padding: 0;
+  min-height: 130vw;
+}
+img{
+  margin:0% 5% 0% 5%;
+  max-width: 25%;
+}
+
+nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  position: fixed;
+  width: 100vh;
+  bottom: 0;
+  right: 3em;
+  line-height: 2em;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+  background-color: #aaf0d1;
+  color: #1E2952;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  padding:0 10px 0 10px;
+    font-family: 'Butler';
+    font-weight: 500;
+    font-style: normal;
+    font-size:1em;
+    z-index: 100;
+}
+h1 {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  font-size:10vw;
+  margin:0;
+  padding: 100px;
+  pointer-events: none;
+}
+
+h2 {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  font-size:8em;
+padding: 10vw;
+  position: absolute;
+
+}
+.logo {
+  display: block;
+   margin-left: 35vw;
+   margin-right: auto;
+   width: 50%;
+   padding-top:20%;
+}
+
+
+#contacts{
+  position: relative;
+  bottom:10vw;
+  pointer-events: none;
+  font-size: 5vw;
+}
+
+#motto{
+position: relative;
+font-size: 5vw;
+pointer-events: none;
+
+}
+
+#side{
+  position: relative;
+  transform: rotate(-90deg);
+  left:5vw;
+  top:5vw;
+  transform-origin: 0% 0%;
+}
+#homepage{
+  background-color: #fff8e7;
+  padding:0;
+  margin:0;
+  height: 100vh;
+}
+#rectangle{
+  background-color: lightgreen;
+  width:60%;
+  margin:0 auto;
+}
+#project{
+    background-color: #FA7268;
+    height: 100vh;
+}
+#about{
+   background-image: url("land.jpg");
+  background-color: #1E2952;
+    height: 100vh;
+}
+#contact{
+    height: 100vh;
+      background-color: #aaf0d1:
+}
+a{font-size: 3vw;}
+.text{padding:10vw;}
+.graphic{padding:10vw;}
+#newsblock{
+
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   color:transparent;
+
+}
+.article{
+border-style: dotted;
+  -webkit-border-radius       :   3px;
+  -moz-border-radius          :   3px;
+  border-radius               :   3px;
+
+}
